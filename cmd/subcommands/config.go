@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
 	"github.com/spf13/cobra"
+	"github.com/sweety3377/gotron-sdk/pkg/common"
 	"gopkg.in/yaml.v2"
 )
 

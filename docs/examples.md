@@ -27,11 +27,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/client"
-	"github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
-	"github.com/fbsobreira/gotron-sdk/pkg/keys"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/api"
+	"github.com/sweety3377/gotron-sdk/pkg/address"
+	"github.com/sweety3377/gotron-sdk/pkg/client"
+	"github.com/sweety3377/gotron-sdk/pkg/client/transaction"
+	"github.com/sweety3377/gotron-sdk/pkg/keys"
+	"github.com/sweety3377/gotron-sdk/pkg/proto/api"
 )
 
 func main() {
@@ -95,8 +95,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/client"
+	"github.com/sweety3377/gotron-sdk/pkg/address"
+	"github.com/sweety3377/gotron-sdk/pkg/client"
 )
 
 func monitorBalance(c *client.GrpcClient, addr string, interval time.Duration) {
@@ -144,11 +144,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/client"
-	"github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
-	"github.com/fbsobreira/gotron-sdk/pkg/keys"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/api"
+	"github.com/sweety3377/gotron-sdk/pkg/address"
+	"github.com/sweety3377/gotron-sdk/pkg/client"
+	"github.com/sweety3377/gotron-sdk/pkg/client/transaction"
+	"github.com/sweety3377/gotron-sdk/pkg/keys"
+	"github.com/sweety3377/gotron-sdk/pkg/proto/api"
 )
 
 func multiSigExample() error {
@@ -214,10 +214,10 @@ import (
 	"math/big"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/client"
-	"github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/api"
+	"github.com/sweety3377/gotron-sdk/pkg/address"
+	"github.com/sweety3377/gotron-sdk/pkg/client"
+	"github.com/sweety3377/gotron-sdk/pkg/client/transaction"
+	"github.com/sweety3377/gotron-sdk/pkg/proto/api"
 )
 
 // Hex2Bytes converts a hex string to a byte slice unchecked.
@@ -397,12 +397,12 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/client"
-	"github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
-	"github.com/fbsobreira/gotron-sdk/pkg/keys"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/api"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
+	"github.com/sweety3377/gotron-sdk/pkg/address"
+	"github.com/sweety3377/gotron-sdk/pkg/client"
+	"github.com/sweety3377/gotron-sdk/pkg/client/transaction"
+	"github.com/sweety3377/gotron-sdk/pkg/keys"
+	"github.com/sweety3377/gotron-sdk/pkg/proto/api"
+	"github.com/sweety3377/gotron-sdk/pkg/proto/core"
 )
 
 type ResourceManager struct {

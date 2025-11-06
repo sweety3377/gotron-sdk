@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/fbsobreira/gotron-sdk/pkg/keys/hd"
 	"github.com/incognito-core-libs/tyler-smith-gobip39"
+	"github.com/sweety3377/gotron-sdk/pkg/keys/hd"
 )
 
 // FromMnemonicSeedAndPassphrase derive form mnemonic and passphrase at index

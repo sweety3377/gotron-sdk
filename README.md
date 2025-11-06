@@ -52,8 +52,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
-	"github.com/fbsobreira/gotron-sdk/pkg/client"
+	"github.com/sweety3377/gotron-sdk/pkg/address"
+	"github.com/sweety3377/gotron-sdk/pkg/client"
 )
 
 func main() {

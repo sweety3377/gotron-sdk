@@ -6,7 +6,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/fbsobreira/gotron-sdk/pkg/proto/core"
+	"github.com/sweety3377/gotron-sdk/pkg/proto/core"
 	proto "google.golang.org/protobuf/proto"
 )
 

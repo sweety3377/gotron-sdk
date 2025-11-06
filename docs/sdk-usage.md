@@ -42,10 +42,10 @@ go get github.com/fbsobreira/gotron-sdk
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
-    "github.com/fbsobreira/gotron-sdk/pkg/address"
-    "github.com/fbsobreira/gotron-sdk/pkg/keystore"
-    "github.com/fbsobreira/gotron-sdk/pkg/common"
+    "github.com/sweety3377/gotron-sdk/pkg/client"
+    "github.com/sweety3377/gotron-sdk/pkg/address"
+    "github.com/sweety3377/gotron-sdk/pkg/keystore"
+    "github.com/sweety3377/gotron-sdk/pkg/common"
 )
 ```
 
@@ -58,7 +58,7 @@ package main
 
 import (
     "log"
-    "github.com/fbsobreira/gotron-sdk/pkg/client"
+    "github.com/sweety3377/gotron-sdk/pkg/client"
 )
 
 func main() {
@@ -203,7 +203,7 @@ func importAccount(privateKeyHex string) (string, error) {
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/client/transaction"
+    "github.com/sweety3377/gotron-sdk/pkg/client/transaction"
 )
 
 
@@ -284,7 +284,7 @@ func sendWithMemo(c *client.GrpcClient, from, to string, amount int64, memo stri
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/keystore"
+    "github.com/sweety3377/gotron-sdk/pkg/keystore"
 )
 
 func keystoreExample() error {
@@ -329,8 +329,8 @@ func keystoreExample() error {
 
 ```go
 import (
-    "github.com/fbsobreira/gotron-sdk/pkg/mnemonic"
-    "github.com/fbsobreira/gotron-sdk/pkg/keys"
+    "github.com/sweety3377/gotron-sdk/pkg/mnemonic"
+    "github.com/sweety3377/gotron-sdk/pkg/keys"
 )
 
 func hdWalletExample() error {

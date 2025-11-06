@@ -3,9 +3,9 @@ package client_test
 import (
 	"testing"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/client"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/sweety3377/gotron-sdk/pkg/client"
 )
 
 func TestTRC20_Balance(t *testing.T) {

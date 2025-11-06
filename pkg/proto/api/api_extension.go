@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	core "github.com/fbsobreira/gotron-sdk/pkg/proto/core"
+	core "github.com/sweety3377/gotron-sdk/pkg/proto/core"
 	"google.golang.org/protobuf/proto"
 )
 

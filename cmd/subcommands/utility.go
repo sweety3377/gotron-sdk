@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/address"
 	"github.com/spf13/cobra"
+	"github.com/sweety3377/gotron-sdk/pkg/address"
 )
 
 func init() {

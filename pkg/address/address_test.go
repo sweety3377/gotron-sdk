@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/fbsobreira/gotron-sdk/pkg/common"
+	"github.com/sweety3377/gotron-sdk/pkg/common"
 )
 
 func TestAddress_Scan(t *testing.T) {
