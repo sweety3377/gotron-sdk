@@ -15,8 +15,8 @@ import (
 	"github.com/fbsobreira/gotron-sdk/pkg/ledger"
 	"github.com/fbsobreira/gotron-sdk/pkg/mnemonic"
 	"github.com/fbsobreira/gotron-sdk/pkg/store"
+	"github.com/incognito-core-libs/tyler-smith-gobip39"
 	"github.com/spf13/cobra"
-	"github.com/tyler-smith/go-bip39"
 	"golang.org/x/term"
 )
 
